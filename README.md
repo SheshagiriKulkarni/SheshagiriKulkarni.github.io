@@ -7,7 +7,7 @@
 <dt>Course Code</dt>
 <dd>23ECSE309</dd>
 <dt>Name</dt>
-<dd>Prakash Hegade</dd>
+<dd>Shashank Kulkarni</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
@@ -16,7 +16,7 @@
 
 > A step towards better e-commerce management
 >
-> PH
+> SK
 
 #### Note:
 This page hosts:
