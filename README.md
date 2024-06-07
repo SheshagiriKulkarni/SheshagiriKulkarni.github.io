@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato platform: A Comprehensive APS Portfolio</title>
+    <link rel="stylesheet" href="./sass/custom.css">
+</head>
+<body>
+
 # Zomato platform: A Comprehensive APS Portfolio
 
 **Course Name**  
