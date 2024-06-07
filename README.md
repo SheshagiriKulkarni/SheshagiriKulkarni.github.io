@@ -1,4 +1,3 @@
-# SheshagiriKulkarni.github.io
 # Zomato platform: A Comprehensive APS Portfolio
 
 **Course Name**  
