@@ -69,6 +69,7 @@ Breadth-First Search (BFS) is a graph traversal algorithm that can be used to fi
 Depth-First Search (DFS) is a graph traversal algorithm that Zomato could employ to discover restaurants connected to a particular establishment, aiding in recommending similar dining options to customers. Unlike Breadth-First Search (BFS), DFS explores deeply into each restaurant network before backtracking, which can be more memory-efficient for certain types of connections. However, implementing DFS requires handling recursion or managing a stack, making it more complex than BFS. In terms of efficiency, DFS operates in O(V + E) time complexity, where V is the number of restaurants and E is the number of connections between them, making it a viable choice for exploring restaurant networks effectively.
 
 [Here's my code for implementing BFS algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/bfs.c){:target="_blank"}
+
 [Here's my code for implementing DFS algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/dfs.c){:target="_blank"}
 
 ## 3. Food delivery Routes Optimisation
