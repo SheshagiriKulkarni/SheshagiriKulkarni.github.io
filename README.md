@@ -60,7 +60,7 @@ The ever-evolving landscape of food delivery services necessitates continual imp
 
 The Bellman-Ford algorithm is a shortest path algorithm that can be used to find the fastest way to get from one location to another. Zomato could utilize this algorithm to determine the quickest route for delivering food to customers, especially in scenarios where route costs may include negative weights, such as discounts or varying traffic conditions that affect travel time. The primary advantage of Bellman-Ford is its ability to find the shortest path even in graphs with negative edge weights, providing flexibility in route optimization under diverse conditions. However, a significant disadvantage is that it is slower than Dijkstra's algorithm for graphs without negative edge weights, making it less efficient in those cases. The worst-case time complexity of Bellman-Ford is O(VE), where V is the number of restaurants and E is the number of connections between them, indicating that it can be computationally intensive for large graphs. Despite this, its versatility in handling negative weights makes it a valuable tool for comprehensive route planning in varied delivery environments.
 
-[Here's my code for implementing Bellman Ford algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/bellman_ford.cpp)
+[Here's my code for implementing Bellman Ford algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/bellman_ford.cpp){:target="_blank"}
 
 ## 2. Restaurant Recommendations
 
