@@ -32,11 +32,18 @@ Zomato
 
 4. **Data Structures and Algorithms applicable**
 
+5. **Key Learnings and Take Aways**
+
+6. **References**
+
 ## Introduction
 
   Zomato is a leading online food delivery service, providing a platform for ordering food conveniently and efficiently. In today’s day and age, the efficiency and effectiveness of food delivery services can be significantly enhanced through the strategic application of data structures and algorithms. This portfolio project delves into the core functionalities of Zomato’s diverse services, applying the theoretical knowledge and practical skills acquired from the course Algorithmic Problem Solving (APS). By using advanced algorithmic techniques and data structures, this project aims to propose solutions to real-world business applications. From optimizing order allocation algorithms for improved efficiency and speed to enhancing route planning for better accuracy and reduced delivery time, the potential for enhancement is vast.
 
 This portfolio showcases how algorithms can be applied within Zomato’s ecosystem. Each use case illustrates how specific DSA principles can solve practical challenges faced by a food delivery service like Zomato, bridging the gap between theory and application. Explore the use cases to see how DSA and Algorithmic Problem Solving techniques are used to enhance performance, reliability, and efficiency in a real-world context.
+
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/e3454617-eb73-4131-8258-4117c25a750a)
+
 
 ## Need of Portfolio
 
@@ -60,6 +67,9 @@ The ever-evolving landscape of food delivery services necessitates continual imp
 
 The Bellman-Ford algorithm is a shortest path algorithm that can be used to find the fastest way to get from one location to another. Zomato could utilize this algorithm to determine the quickest route for delivering food to customers, especially in scenarios where route costs may include negative weights, such as discounts or varying traffic conditions that affect travel time. The primary advantage of Bellman-Ford is its ability to find the shortest path even in graphs with negative edge weights, providing flexibility in route optimization under diverse conditions. However, a significant disadvantage is that it is slower than Dijkstra's algorithm for graphs without negative edge weights, making it less efficient in those cases. The worst-case time complexity of Bellman-Ford is O(VE), where V is the number of restaurants and E is the number of connections between them, indicating that it can be computationally intensive for large graphs. Despite this, its versatility in handling negative weights makes it a valuable tool for comprehensive route planning in varied delivery environments.
 
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/1c2de734-9a1a-40e6-a579-abfd937676c0)
+
+
 [Here's my code for implementing Bellman Ford algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/bellman_ford.cpp){:target="_blank"}
 
 ## 2. Restaurant Recommendations
@@ -82,11 +92,17 @@ The Ford-Fulkerson algorithm is a pivotal tool for calculating maximum flow with
 
 Zomato's exploding restaurant database demands a swift and memory-efficient search mechanism. Linear search, with its sluggish O(n) time complexity in the worst case, becomes impractical for such a vast dataset. Trie data structures emerge as a hero, excelling at prefix searches (O(k) time complexity) where k represents the length of the user's query, for real-time suggestions as users type, significantly accelerating the search experience. Moreover, tries conquer memory limitations by leveraging shared prefixes among restaurant names, allowing Zomato to scale effectively. While insertion and deletion operations might be slightly slower in tries (O(k)), the gains in search speed and scalability make them a perfect fit for optimizing Zomato's search functionality.
 
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/131d942c-fbe1-407c-842d-f7d1a3123de3)
+
+
 [Here's my code for implementing Trie](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/trie.cpp){:target="_blank"}
 
 ## 5. Optimizing Delivery Routes with Topological Sort
 
 Zomato's delivery heroes navigate a complex web of restaurants, ensuring food arrives fresh and fast. But managing intricate delivery chains with dependencies can be a logistical nightmare. Imagine a chef preparing a multi-course meal – appetizers must be ready before the main course. Here's where topological sort comes in, a powerful algorithm that tackles these dependencies with elegance.Topological sort boasts a time complexity of O(V + E), where V represents the number of restaurants and E signifies the number of dependencies between them. It also excels in space complexity, requiring only O(V) additional space. In simpler terms, the algorithm efficiently analyzes these dependencies and sequences deliveries in a permissible order. This ensures the delivery person isn't left waiting at a restaurant with unfinished preparations.The benefits are undeniable – optimized routes, potentially faster deliveries, and a smoother experience for both customers and restaurant partners. Imagine the delight of a customer receiving their piping hot appetizer before the main course arrives! However, it's crucial to acknowledge that topological sort thrives on well-defined dependencies. In scenarios with more intricate relationships between restaurants and tasks, alternative methods might be necessary.Despite this limitation, topological sort stands out as a compelling strategy for Zomato's delivery management. By ensuring a logical flow of deliveries, it empowers Zomato's delivery heroes to navigate the restaurant network efficiently, ultimately delighting customers with fresh and timely deliveries.
+
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/49ea0d17-1d3b-4e8d-81d8-d524397e6774)
+
 
 [Here's my code for implementing Topological Sort](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/topo_sort.cpp){:target="_blank"}
 
@@ -105,6 +121,9 @@ Zomato strives to connect users with the perfect meal, but understanding individ
 ## 8. Faster Restaurant Search and Optimised Management of Restaurant Data using B+ trees
 
 Zomato's ever-expanding restaurant database requires a structure that prioritizes both efficient searches and seamless updates. While Binary Search Trees (BSTs) offer organized retrieval, they can become sluggish for massive datasets when dealing with frequent insertions and deletions of restaurants. Here's where B+ Trees emerge as a powerful alternative.Imagine a well-organized library with a meticulously maintained card catalog (BST). While efficient for finding specific books, inserting new titles can disrupt the flow. B+ Trees function like a multi-level index system in this library. They group multiple entries on each page, enabling faster navigation through vast collections.For Zomato, this translates to significant advantages. B+ Trees excel at searches, allowing users to find restaurants based on specific criteria (cuisine, location, rating) with remarkable speed.  Their logarithmic search time (O(log n)) makes them significantly faster than linear searches in unsorted data. Additionally, B+ Trees efficiently handle insertions and deletions, crucial for Zomato's dynamic database. They also support efficient range queries, ideal for finding top-rated restaurants within a specific area.While B+ Trees require slightly more storage space compared to BSTs, the gains in search speed, update efficiency, and range query capabilities make them a perfect fit for optimizing Zomato's restaurant data management and ultimately, enhancing the user experience.
+
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/8041a8b0-94c5-4361-a43e-01504e47ec35)
+
 
 [Here's my code for implementing B+ tree algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/b%2B_tree.cpp){:target="_blank"}
 
@@ -135,6 +154,9 @@ Hash Maps are crucial for fast data retrieval in various parts of Zomato's opera
 ## 13. Priority Queues for Task Scheduling
 
 Priority Queues are essential for task scheduling in Zomato's delivery operations. They can prioritize delivery orders based on factors like urgency, distance, or preparation time, ensuring that high-priority orders are handled first. Implemented using binary heaps, priority queues offer O(log n) time complexity for insertion and deletion, making them efficient for dynamic environments. This efficiency is crucial for Zomato, where rapid decision-making is necessary to manage a high volume of orders. By using priority queues, Zomato can ensure that the most urgent orders are dispatched promptly, minimizing wait times for customers and enhancing overall service reliability.Priority queues also help in balancing workloads among delivery personnel by dynamically adjusting to changing conditions, such as traffic or restaurant preparation times. However, they do require careful management of priorities to avoid bottlenecks and ensure that lower-priority tasks are not unduly delayed. This necessitates a well-designed priority system that accurately reflects the business's operational needs and customer expectations.Despite these challenges, the benefits of using priority queues in task scheduling are significant. They allow Zomato to streamline its delivery operations, making real-time adjustments based on current demand and conditions. For example, during peak hours, priority queues can help ensure that time-sensitive orders, like those from premium customers, are given precedence. This capability leads to more efficient use of resources, reducing the likelihood of delays and improving overall customer satisfaction.Moreover, priority queues can be integrated with other systems, such as inventory management and order tracking, to provide a comprehensive solution for order processing. By leveraging the power of priority queues, Zomato can maintain a high level of service quality, even as the volume and complexity of orders increase. This integration supports scalability, allowing Zomato to grow its operations without sacrificing performance or reliability.
+
+![image](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/assets/171969518/6e5ba1c0-3f3c-49fd-8346-d840835ce438)
+
 
 [Here's my code for implementing priority Queue](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/pq.cpp){:target="_blank"}
 
