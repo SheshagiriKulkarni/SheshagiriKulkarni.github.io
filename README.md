@@ -162,6 +162,28 @@ Levenshtein distance, a fundamental algorithm in string processing, computes the
 
 [Here's my code for implementing Levenshtein Distance algorithm](https://github.com/SheshagiriKulkarni/SheshagiriKulkarni.github.io/blob/main/ledi.cpp){:target="_blank"}
 
-## Key Laernings and Take Aways
+## Key Learnings and Take Aways
 
 Through this portfolio on Zomato, I have gained invaluable insights into the practical application of Data Structures and Algorithms (DSA) in optimizing food delivery services. The key learnings include the ability to implement and utilize advanced algorithms such as Dijkstra's algorithm for efficient route planning, A* search algorithm for real-time navigation, and priority queues for task scheduling. Additionally, understanding the significance of data structures like hash maps for fast data retrieval and Union-Find (Disjoint-set) for managing connectivity has been crucial. These implementations have not only enhanced my problem-solving skills but also underscored the importance of algorithmic efficiency in improving service reliability, performance, and user satisfaction within a dynamic and competitive industry like online food delivery.
+
+## References
+
+[1] Vedant Thakur, "Ola Electric Partners With BYPL And BRPL To Expand Its Network Of Charging Stations In New Delhi", Motoroids, https://www.motoroids.com/news/ola-electric-partners-with-bypl-and-brpl-to-expand-its-network-of-charging-stations-in-new-delhi/
+
+[2] Thaddeus Abiy, Hannah Pang, Christopher Williams, "Dijkstra's Shortest Path Algorithm", Brilliant, https://brilliant.org/wiki/dijkstras-short-path-finder/
+
+[3] Saurabh Kumar, "Bellman-Ford Algorithm", Ideserve, https://brilliant.org/wiki/dijkstras-short-path-finder/
+
+[4] François Aubry, "Graphs - Topological sort",INGInious, https://inginious.org/course/competitive-programming/graphs-toposort
+
+[5] Artyom Kalinin, "File:Skip list add element.gif",Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Skip_list_add_element.gif
+
+[6] Eeppeliteloop, "File:Huffman huff demo.gif",Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Huffman_huff_demo.gif
+
+[7] Sebastian De Lima, "A quick explanation of DFS & BFS (Depth First Search & Breadth-First Search)", Medium, https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c
+
+[8] flyguy67, "Traveling Salesman Problem Visualization", Make A GIF, https://makeagif.com/gif/traveling-salesman-problem-visualization-UZrVqj
+
+[9] Xav65, "File:FordFulkerson.gif", Wikimedia Commons, https://commons.wikimedia.org/wiki/File:FordFulkerson.gif
+
+[10] Lucky Sharma, "BloomFilter in SearchEngine (Solr)", Medium, https://mightguy.medium.com/bloomfilter-in-searchengine-part-i-2f34814894b9
